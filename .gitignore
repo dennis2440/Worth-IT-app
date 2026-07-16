@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Android — generated/build artifacts, don't commit these
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+android/.idea/
+*.iml
+
+# Signing keys — NEVER commit these, they're irreplaceable secrets
+*.keystore
+*.jks
+
+# OS/editor clutter
+.DS_Store
+.vscode/
